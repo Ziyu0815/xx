@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Journey</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <!-- Make my html and css linked together -->
+</head>
+
+
+<body>
+  <div class="start">
+    <img class="banner" src="./image/tou.jpg " >
+   <!-- Insert start images to give the page an overall design -->
+    <h1 class="select">Start to our pokémon jounry</h1>
+    <img src="./image/qiu.png" width="150px" style="float: left;">
+    <div class="Introduction">
+      <br>
+   <!-- Make spaces by br to make the overall text look balanced -->
+      <h2>Introduction before the adventure begins</h2>
+    </div>
+    
+
+    <img src="./image/pikaqiu.png" width="400px" style="float: right;">
+    <p class="before">Pokémon are mysterious and incredible creatures that live in the world of Pokémon, and there are a total of 898 known species of Pokémon. Pokémon can be found in the sky, in the sea, in the mountains, in the forests, in the grasslands, in the towns. Some Pokémon live amicably with humans; some wild Pokémon live in the grass, caves or in the sea.</p>
+    <img src="./image/yibu.png" width="400px" style="float: left;">
+    <p class="before">Many humans in the Pokémon world will travel with Pokémon, participate in the Pokémon Magnificence Contest to win ribbon medals or collect badges, and challenge the Pokémon League. Such people are called Pokémon trainers, and they will let their Pokémon battle other trainers or wild Pokémon to create a powerful Pokémon team by using the interplay between Pokémon with different attributes and giving due consideration to characteristics, matching moves and carrying props, and training abilities.</p>
+    
+    
+
+    <h1 class="select">First select your Pokémon</h1>
+    <div class="btn">
+       <!-- A group by div to facilitate modification of css --> 
+      <div class="btn-item">
+        <button onclick="myFunction(1)"><img src="./image/man.jpg"></button>
+        <!-- Link to an already written script --> 
+        <div class="tip-item-wrap">
+          <p id="b1" class="tip">Piplup from Pokemon Diamond Pear.
+            <!-- Modify text and text css by div --> 
+            <br>
+            This game can choose a male or female protagonist to play, another unselected protagonist will become the doctor's assistant, no matter which protagonist you choose, the player will become a fierce enemy with the tame.</p>
+        </div>
+      </div>
+      <div class="btn-item">
+        <button onclick="myFunction(2)"><img src="./image/tu.jpg"></button>
+        <div class="tip-item-wrap">
+          <p id="b2" class="tip">Scorbunny from Pokemon Sword and Shield.
+            <br>
+            Players can explore freely in the wilderness area, and with other players through the "giant" and the powerful wild Pokemon group battle, or in the specific dojo and the battle using the giant, so that the Pokemon in three rounds giant to battle.</p>
+        </div>
+      </div>
+      <div class="btn-item">
+        <button onclick="myFunction(3)"><img src="./image/wa.jpg"></button>
+        <div class="tip-item-wrap">
+          <p id="b3" class="tip">Bulbasaur from Pokemon Red and Green.
+            <br>
+            Players in the game in the third person perspective to control the protagonist travel through a fictional world, Pokemon around to fight against and become a Pokemon master. The goal of the game is to defeat the eight gym masters and the Four Heavenly Kings and champions above them.</p>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <h1 class="choose">Choose the path you want to move forward</h1>
+
+    <div class="btn">
+      <div class="btn-item">
+        <button onclick="myFunction(4)"><img src="./image/hz.jpg"></button>
+        <div class="tip-item-wrap">
+          <p id="b4"class="tip">The gyms belong to the region's Pokémon League and are led by the gyms master, who can be defeated to earn a badge. Some gyms can only be challenged if certain conditions are met,  and some gyms have puzzles that make it impossible to reach the master without passing the puzzle. Usually, in addition to the owner, there are other trainers in the gym. Most gyms are themed around one attribute, but there are exceptions. Usually, there are 8 gyms in an area.</p>
+        </div>
+      </div>
+      <div class="btn-item">
+        <button onclick="myFunction(5)"><img src="./image/dd.jpg"  ></button>
+        <div class="tip-item-wrap">
+          <p id="b5" class="tip">In the competition, Pokémon are scored by appearance and performance. They have different groupings, for example, there are five groups: handsome, beautiful, cute, smart, and strong. They have three rounds, which are judged by appearance charm, dance charm and acting charm. The final score of the competition is the sum of the scores of the three rounds. If there are more than one Pokémon with the same score, the ranking among them will be randomly ordered.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <h1 id="go">Start your adventure!</h1>
+
+
+  </div>
+  <script src="./js/index.js"></script>
+  <!-- Mark this html link with js --> 
+</body>
+</html>
